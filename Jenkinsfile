@@ -2,8 +2,8 @@ pipeline {
     agent any
     parameters {
         string(defaultValue: '', description: 'Ovveride Builds Tag ID', name: 'overrideBuilds')
-        string(defaultValue: 'e800cec2-6114-4bf5-ab2d-75e91abb7ebb', description: 'Ovveride Builds Tag ID', name: 'gitAppID')
-        string(defaultValue: 'yakov.av@gmail.com', description: 'Ovveride Builds Tag ID', name: 'gitUserName')
+        string(defaultValue: '', description: 'Ovveride Builds Tag ID', name: 'gitAppID')
+        string(defaultValue: '', description: 'Ovveride Builds Tag ID', name: 'gitUserName')
     }
     // Set the next tag version for build to environment variable 
     environment {
