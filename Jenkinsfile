@@ -18,7 +18,7 @@ pipeline {
                     doGenerateSubmoduleConfigurations: false, 
                     extensions: [[$class: 'CleanCheckout']], 
                     submoduleCfg: [], 
-                    userRemoteConfigs: [[url: 'git@github.com:blackjk83/aquatraining.git']]
+                    userRemoteConfigs: [[url: 'https://github.com/blackjk83/aquatraining']]
                 ])
             }
         }
